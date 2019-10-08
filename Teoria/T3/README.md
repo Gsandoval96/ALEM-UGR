@@ -61,6 +61,7 @@ Las unidades de K[x] son lo polinomios de grado 0, es decir, K - {0}.
 Calcular las unidades de Z<sub>5</sub>[x].
 
 U(Z<sub>5</sub>[x]) = {1, 2, 3, 4}
+
 ---
 
 Un polinomio a(x) ∈ K[x] es irreducible si verifica:
