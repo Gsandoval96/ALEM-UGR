@@ -1,7 +1,6 @@
 # Tema 3: El anillo de los polinomios
 
-Sea K un cuerpo, el conjunto de los polinomio con coeficientes en el cuerpo K y en la indeterminada x es K[x] = {a<sub>0</sub> + a<sub>1</sub>x + ... + a<sub>n</sub>x<sup>n</sup>} tal que n ∈ a N (el conjunto de los números naturales)
-y {a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n</sub>} ∈ K.
+Sea K un cuerpo, el conjunto de los polinomio con coeficientes en el cuerpo K y en la indeterminada x es K[x] = {a<sub>0</sub> + a<sub>1</sub>x + ... + a<sub>n</sub>x<sup>n</sup>} tal que n ∈ a N y {a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n</sub>} ∈ K.
 
 ### Proposición
 
@@ -38,5 +37,22 @@ Calcular las unidades de Z<sub>5</sub>[x].
 ---
 
 Un polinomio a(x) ∈ K[x] es irreducible si verifica:
-- gr(a(x)) >= 1
+- gr(a(x)) ≥ 1
 - Si a(x) = b(x) * c(x) entonces 0 ∈ {gr(b(x)), gr(c(x))}
+
+### Proposición
+
+- Todo polinomio de K[x] de grado 1 es irreducible.
+- Si a(x) ∈ K[x], u ∈ K - {0} y a(x) es irreducible, entonces u*a(x) es también irreducible.
+
+---
+
+Un polinomio diremos que es mónico si el coeficiente del término de mayor grado vale 1.
+
+### Teorema
+
+Todo polinomio a(x) ∈ K[x] de grado mayor o igual que 1 se puede poner de forma única como a(x) = u*p<sub>1</sub>(x)<sup>α<sub>1</sub></sup> * ... * p<sub>r</sub>(x)<sup>α<sub>r</sub></sup>, donde u ∈ K - {0}, α<sub>1</sub>, ..., α<sub>r</sub> ∈ N - {0} y p<sub>1</sub>(x), ..., p<sub>r</sub>(x) son polinomios mónicos e irreducibles.
+
+---
+
+A la expresión a(x) = u*p<sub>1</sub>(x)<sup>α<sub>1</sub></sup> * ... * p<sub>r</sub>(x)<sup>α<sub>r</sub></sup> la llamaremos la descomposición en irreducibles del polinomio a(x).
