@@ -10,6 +10,9 @@ Sea K un cuerpo, el conjunto de los polinomio con coeficientes en el cuerpo K y 
 
 Sean a(x) = 3x<sup>4</sup> + 4x<sup>3</sup> + 2x<sup>2</sup> + 3x + 4 y b(x) = 3x<sup>2</sup> + 4x + 2 ∈ Z<sub>5</sub>. Calcular a(x) + b(x) y a(x) * b(x).
 
++ a(x) + b(x) = 3x<sup>4</sup> + 4x<sup>3</sup> + 2x + 1
++ a(x) * b(x) = 4x<sup>6</sup> + 4x<sup>5</sup> + 3x<sup>4</sup> + 3x<sup>2</sup> +2x + 3
+
 ---
 
 Sea a(x) = a<sub>0</sub> + a<sub>1</sub>x + ... + a<sub>n</sub>x<sup>n</sup> ∈ K[x] y a ≠ 0, diremos que a(x) es un polinomio de grado n, y lo denotaremos gr(a(x)) = n. Por definición, gr(0) = -INF.
@@ -26,6 +29,10 @@ Un elemento a de un anillo (A, +, \*) es una unidad si tiene inverso para el pro
 
 Calcular las unidades de Z, Z<sub>5</sub> y Z<sub>6</sub>.
 
++ U(Z) = {1, -1}
++ U(Z<sub>5</sub>) = {1, 2, 3, 4}
++ U(Z<sub>6</sub>) = {1, 5}
+
 ### Proposición
 
 Las unidades de K[x] son lo polinomios de grado 0, es decir, K - {0}.
@@ -34,6 +41,7 @@ Las unidades de K[x] son lo polinomios de grado 0, es decir, K - {0}.
 
 Calcular las unidades de Z<sub>5</sub>[x].
 
+U(Z<sub>5</sub>[x]) = {1, 2, 3, 4}
 ---
 
 Un polinomio a(x) ∈ K[x] es irreducible si verifica:
@@ -56,3 +64,14 @@ Todo polinomio a(x) ∈ K[x] de grado mayor o igual que 1 se puede poner de form
 ---
 
 A la expresión a(x) = u*p<sub>1</sub>(x)<sup>α<sub>1</sub></sup> * ... * p<sub>r</sub>(x)<sup>α<sub>r</sub></sup> la llamaremos la descomposición en irreducibles del polinomio a(x).
+
+### Ejercicio
+
+Calcular la descomposición en irreducibles de los polinomios a(x) = (4x + 3)(3x + 2) ∈ Z<sub>5</sub>[x] y b(x) = (2x + 3)(3x + 2)(4x + 1).
+
++ a(x) = 5(x + 6)(x + 3)
++ b(x) = 4(x + 4)<sup>3</sup>
+
+---
+
+Sean a(x) y b(x) ∈ K[x], diremos que a(x) divide a b(x) o que b(x) es un múltiplo de a(x) o que a(x) es un divisor de b(x) y lo denotaremos a(x) | b(x) si existe c(x) ∈ K[x] / b(x) = a(x) * b(x).
