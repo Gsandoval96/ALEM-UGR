@@ -24,3 +24,17 @@ El cardinal de un conjunto es el número de elementos de dicho conjunto y lo den
 
 + Si A es un conjunto, entonces #P(A) = 2<sup>#A</sup>
 + Sean A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub> conjuntos, entonces el cardinal #( A<sub>1</sub> x A<sub>2</sub> x ... x A<sub>n</sub> ) = #A<sub>1</sub> x #A<sub>2</sub> x ... x #A<sub>n</sub>
+
+---
+
+### Relaciones de equivalencia
+
+Sea A un conjunto. Una relación binaria sobre el conjunto A es un subconjunto R de de AxA. Si ( x, y ) ∈ R, escribiremos xRy y diremos que x está relacionado con y.
+
+Una relación binaria R sobre un conjunto A diremos que es una **relación binaria de equivalencia** si verifica las siguientes propiedades:
+
++ **Reflexiva**: si a ∈ A, entonces aRa.
++ **Simétrica**: si aRb, entonces bRa.
++ **Transitiva**: si aRb y bRc, entonces aRc.
+
+Si R es una relación de equivalencia sobre un conjunto A y a ∈ A, entonces la clase del elemento a se denota [a] = { x ∈ A / xRa }. El conjunto cociente se denota A/~ = { [a] / a ∈ A }.
