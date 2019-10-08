@@ -1,0 +1,10 @@
+## Teoría
+- ### Tema 1: [Conjuntos, relaciones y aplicaciones](Teoria/T1/README.md)
+- ### Tema 2: [Aritmética entera y modular](Teoria/T2/README.md)
+- ### Tema 3: [El anillo de los polinomios](Teoria/T3/README.md)
+- ### Tema 4: [Matrices](Teoria/T4/README.md)
+- ### Tema 5: [Espacios vectoriales](Teoria/T5/README.md)
+- ### Tema 6: [Aplicaciones lineales](Teoria/T6/README.md)
+- ### Tema 7: [Sistemas de ecuaciones](Teoria/T7/README.md)
+- ### Tema 8: [Diagonalización de matrices](Teoria/T8/README.md)
+- ### Tema 9: [Combinatoria](Teoria/T9/README.md)
