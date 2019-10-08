@@ -1,5 +1,24 @@
 # Tema 3: El anillo de los polinomios
 
+Un anillo es una terna (A, +, \*), donde A es un conjunto y + y * son operaciones que verifican las siguientes propiedades:
+
+1. La operación + es asociativa, conmutativa, tiene elemento neutro (que denotaremos como 0) y tiene inverso (para un elemento x, lo denotaremos -x).
+2. La operación * es asociativa, tiene elemento neutro (que denotaremos como 1) y verifica la propiedad distributiva para la suma (a(b+c) = a*b + a*c).
+
+Si además la operación * es conmutativa, diremos que el anillo es conmutativo. Un cuerpo es una anillo conmutativo en el que todo elemento distinto de 0 tiene inverso para el producto (para un elemento x, lo denotaremos x<sup>-1</sup>).
+
+#### Ejemplo
+
++ (N, +, \*) > No tiene inverso para la suma, por lo que no es un anillo.
++ (Z, +, \*) > Cumple ambas propiedades y la operación * es conmutativa, por lo que es un anillo conmutativo.
++ (Q, +, \*) > Cumple ambas propiedades y la operación * es conmutativa, por lo que es un anillo conmutativo. Además, todo elemento distinto de 0 tiene inverso para el producto, por lo que es un cuerpo.
++ (Z<sub>6</sub>, +, \*) > Cumple ambas propiedades y la operación * es conmutativa, por lo que es un anillo conmutativo. Como hay elementos sin inverso para el producto distintos de 0, como por ejemplo el 2 o el 3, por lo que no es un cuerpo.
++ (Z<sub>5</sub>, +, \*) > Cumple ambas propiedades y la operación * es conmutativa, por lo que es un anillo conmutativo. Además, todo elemento distinto de 0 tiene inverso para el producto, por lo que es un cuerpo.
+
+Podremos decir que (Z<sub>n</sub>, +, \*) es siempre un anillo conmutativo. Además, será un cuerpo sí y solo sí n es un número primo.
+
+---
+
 Sea K un cuerpo, el conjunto de los polinomio con coeficientes en el cuerpo K y en la indeterminada x es K[x] = {a<sub>0</sub> + a<sub>1</sub>x + ... + a<sub>n</sub>x<sup>n</sup>} tal que n ∈ a N y {a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n</sub>} ∈ K.
 
 ### Proposición
