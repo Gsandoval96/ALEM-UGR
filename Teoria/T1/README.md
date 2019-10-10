@@ -104,3 +104,7 @@ Sea ( A, ≤ ) un conjunto ordenado y B ⊆ A:
 6. **SUPREMO**: el SUPREMO de B es el mínimo del conjunto formado por todas las cotas superiores de B.
 7. **COTAS INFERIORES**: un elemento a ∈ A diremos que es una COTA INFERIOR de B si a ≤ b ∀ b ∈ B.
 8. **ÍNFIMO**: el ÍNFIMO de B es el máximo del conjunto formado por todas las cotas inferiores de B.
+
+#### Ejercicio
+
+Dado el conjunto ordenado ( N, ≤<sub>m</sub> ) y B = { 1, 2, 3, 4, 5 }, calcular los elementos notables de B.
