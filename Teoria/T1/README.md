@@ -1,4 +1,6 @@
-# Tema 1: Conjuntos, relaciones y aplicaciones
+# **Tema 1: Conjuntos, relaciones y aplicaciones**
+
+# Conjuntos
 
 Un conjunto es una colección de objetos a los que llamaremos elementos del conjunto. Si x es un elemento de un conjunto A, diremos que x ∈ A. Diremos que un conjunto A es un **subconjunto** de un conjunto B, y lo denotaremos A ⊆ B, si todo elemento a ∈ A también pertenece a B. Dos conjuntos A y B son **iguales**, y lo denotaremos A = B, si A ⊆ B y B ⊆ A. Admitiremos la existencia de un conjunto sin elementos llamado el **conjunto vacío**, y lo denotaremos con ø. El conjunto vacío es subconjunto de cualquier conjunto.
 
@@ -10,15 +12,17 @@ Sean A y B dos conjuntos:
 
 1. La **intersección** de A y B es A∩B = { x ∈ A & x ∈ B }.
 2. La **unión** de A y B es A∪B = { x ∈ A | x ∈ B }.
-3. La **diferencia** de A y B es A\B = { x ∈ A / x ∉ B}.
-4. El **conjunto partes** de A o conjunto potencia es P(A) = { X / X ⊆ A }.
-5. El **producto cartesiano** de A y B es AxB = { (a,b) / a ∈ A y b ∈ B}.
-6. Si A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub> son conjuntos, el producto cartesiano de todos ellos A<sub>1</sub> x A<sub>2</sub> x ... x A<sub>n</sub> = { a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> } / a<sub>1</sub> ∈ A<sub>1</sub>, a<sub>2</sub> ∈ A<sub>2</sub>, ..., a<sub>n</sub> ∈ A<sub>n</sub> }. A los elementos de este conjunto se les llama n-tuplas.
+3. La **diferencia** de A y B es A\B = { x ∈ A tal que x ∉ B}.
+4. El **conjunto partes** de A o conjunto potencia es P(A) = { X tal que X ⊆ A }.
+5. El **producto cartesiano** de A y B es AxB = { (a,b) tal que a ∈ A y b ∈ B}.
+6. Si A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub> son conjuntos, el producto cartesiano de todos ellos A<sub>1</sub> x A<sub>2</sub> x ... x A<sub>n</sub> = { a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> } tal que a<sub>1</sub> ∈ A<sub>1</sub>, a<sub>2</sub> ∈ A<sub>2</sub>, ..., a<sub>n</sub> ∈ A<sub>n</sub> }. A los elementos de este conjunto se les llama n-tuplas.
 7. Al conjunto A x A x ... x A n-veces lo denotaremos A<sup>n</sup>.
 
 ---
 
-El cardinal de un conjunto es el número de elementos de dicho conjunto y lo denotaremos #A.
+## Cardinal de un conjunto
+
+El **cardinal** de un conjunto es el número de elementos de dicho conjunto y lo denotaremos #A.
 
 ### Proposición
 
@@ -26,6 +30,8 @@ El cardinal de un conjunto es el número de elementos de dicho conjunto y lo den
 + Sean A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub> conjuntos, entonces el cardinal #( A<sub>1</sub> x A<sub>2</sub> x ... x A<sub>n</sub> ) = #A<sub>1</sub> x #A<sub>2</sub> x ... x #A<sub>n</sub>
 
 ---
+
+# Relaciones
 
 ## Relaciones de equivalencia
 
@@ -37,7 +43,7 @@ Una relación binaria R sobre un conjunto A diremos que es una **relación binar
 + **Simétrica**: si aRb, entonces bRa.
 + **Transitiva**: si aRb y bRc, entonces aRc.
 
-Si R es una relación de equivalencia sobre un conjunto A y a ∈ A, entonces la **clase del elemento** a se denota [a] = { x ∈ A / xRa }. El **conjunto cociente** se denota A/~ = { [a] / a ∈ A }.
+Si R es una relación de equivalencia sobre un conjunto A y a ∈ A, entonces la **clase del elemento** a se denota [a] = { x ∈ A tal que xRa }. El **conjunto cociente** se denota A/R = { [a] tal que a ∈ A }.
 
 #### Ejercicio
 
@@ -69,7 +75,7 @@ Una relación binaria ≤ sobre un conjunto A diremos que es una **relación de 
 + **Antisimétrica**: si a≤b, entonces b≤a.
 + **Transitiva**: si a≤b y b≤c, entonces a≤c.
 
-Algunas relaciones de equivalencia son:
+Algunas relaciones de orden son:
 
 + ≤<sub>u</sub> orden usual del conjunto N
 + ≤<sub>m</sub> orden ser múltiplo
@@ -92,6 +98,8 @@ Demostrar que las siguientes relaciones son relaciones de orden total.
 1. ( N, ≤<sub>u</sub> )
 2. ( N, ≤<sub>m</sub> )
 
+---
+
 ## Elementos notables de un conjunto ordenada
 
 Sea ( A, ≤ ) un conjunto ordenado y B ⊆ A:
@@ -108,3 +116,65 @@ Sea ( A, ≤ ) un conjunto ordenado y B ⊆ A:
 #### Ejercicio
 
 Dado el conjunto ordenado ( N, ≤<sub>m</sub> ) y B = { 1, 2, 3, 4, 5 }, calcular los elementos notables de B.
+
+---
+
+## Representación gráfica de órdenes
+
+Dados dos elementos a y b, a ≤ b si existe un camino siempre ascendente que conecta a y b.
+
+---
+
+# Aplicaciones
+
+Sean A y B dos conjuntos, una aplicación f de A en B, que denotaremos f:A->B, es una correspondencia que a cada elemento del conjunto A le asocia un único elemento del conjunto B. Si a ∈ A, entonces al elemento que f le asocia B lo denotaremos f(a) y diremos que es la imagen del elemento a. A los conjuntos A y B los llamaremos el dominio y codominio de f respectivamente. Llamaremos imagen de f a Im(f) = { f(a) tal que a ∈ A }.
+
+## Tipos de aplicaciones
+
+Una aplicación f:A->B es:
++ **Inyectiva**: si f(x) = f(y), entonces x = y.
++ **Sobreyectiva**: si Im(f) = B, para demostrar que f es sobreyectiva basta con ver que B ⊆ Im(f), ya que siempre se tiene que la Im(f) ⊆ B.
++ **Biyectiva**: si es inyectiva y sobreyectiva.
+
+#### Ejercicio
+
+Estudiar la biyectividad de las siguientes aplicaciones:
++ f:N->Z tal que f(x) = x - 5.
++ f:Z->N tal que f(x) = x<sup>2</sup>
++ f:Q->Q tal que f(x) = (2x + 1) / 3
+
+---
+
+## Composición de Aplicaciones
+
+Sea f:A->B y g:B->C dos aplicaciones, llamaremos **aplicación composición** de f y g a la aplicación gof:A->C y está definida por gof(a) = g( f(a) ).
+
+#### Ejercicio
+
+Sea f:Z->N tal que f(x) = x<sup>2</sup> y g(y) = ( 2y + 3 ) / 7, calcular la gof.
+
+### Proposición
+
+La composición de aplicaciones es asociativa, pero no es conmutativa.
+
+Que la composición de aplicaciones es asociativa significa que si tenemos f:A->B, g:B->C y h:C->D, entonces ho(gof) = (hog)of.
+
+Que la composición de aplicaciones no es conmutativa significa que si tenemos f:A->A y g:A->A, no implica que gof = fog.
+
+---
+
+## Aplicación identidad
+
+Sea A un conjunto, llamaremos **aplicación identidad** sobre el conjunto a 1<sub>A</sub>:A->A tal que 1<sub>A</sub>(a) = a.
+
+---
+
+## Aplicación inversa
+
+### Proposición
+
+Si f:A->B es una aplicación biyectiva, entonces existe una única aplicación g:B->A tal que gof = 1<sub>A</sub> y fog = 1<sub>B</sub>. A dicha aplicación la llamaremos la **inversa** de f y la denotaremos f<sup>-1</sup>.
+
+#### Ejercicio
+
+Dada la aplicación biyectiva f:Q->Q tal que f(x) = ( 2x +3 ) / 5, calcular su inversa.
