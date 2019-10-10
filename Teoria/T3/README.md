@@ -147,6 +147,8 @@ Sean a(x) = u*p<sub>1</sub>(x)<sup>α<sub>1</sub></sup> * ... * p<sub>r</sub>(x)
 
 Sea a(x) = ( x + 1 )( 2x + 3 ) y b(x) = ( x + 2 )( 4x + 1 ) de Z<sub>5</sub>[x]. Calcular el mcd{ a(x), b(x) } y el mcm{ a(x), b(x) }.
 
+---
+
 ## Propiedad de la división
 
 Si a(x) y b(x) ∈ K[x] y b(x) ≠ 0, entonces existen unos únicos polinomios q(x) y r(x) ∈ K[x] / a(x) = q(x) * b(x) + r(x) y gr( r(x) ) < gr ( b(x) ). A q(x) y r(x) los llamaremos el cociente y el resto de dividir a(x) entre b(x) y los denotaremos a(x) div b(x) y a(x) mod b(x) respectivamente.
@@ -154,6 +156,8 @@ Si a(x) y b(x) ∈ K[x] y b(x) ≠ 0, entonces existen unos únicos polinomios q
 #### Ejercicio
 
 Sean a(x) = 3x<sup>3</sup> + 4x<sup>2</sup> + 2x + 3 y b(x) = 2x<sup>2</sup> + 2x + 1 dos polinomios de Z<sub>5</sub>[x]. Calcular a(x) div b(x) y a(x) mod b(x).
+
+---
 
 ## Algoritmo de Euclides
 
@@ -177,3 +181,5 @@ Calcular un máximo común divisor y un mínimo común múltiplo de los polinomi
 #### Ejercicio
 
 Sea a(x) = 5x<sup>4</sup> + 3x<sup>3</sup> + 2<sup>2</sup> + 4x + 1 y b(x) = 4x<sup>2</sup> + 5x + 2 de Z<sub>7</sub>[x]. Calcular el cociente y el resto de dividir a(x) entre b(x).
+
+---

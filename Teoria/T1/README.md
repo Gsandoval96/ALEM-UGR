@@ -4,7 +4,7 @@ Un conjunto es una colección de objetos a los que llamaremos elementos del conj
 
 ---
 
-### Operaciones con conjuntos
+## Operaciones con conjuntos
 
 Sean A y B dos conjuntos:
 
@@ -27,7 +27,7 @@ El cardinal de un conjunto es el número de elementos de dicho conjunto y lo den
 
 ---
 
-### Relaciones de equivalencia
+## Relaciones de equivalencia
 
 Sea A un conjunto. Una relación binaria sobre el conjunto A es un subconjunto R de de AxA. Si ( x, y ) ∈ R, escribiremos xRy y diremos que x está relacionado con y.
 
@@ -37,4 +37,70 @@ Una relación binaria R sobre un conjunto A diremos que es una **relación binar
 + **Simétrica**: si aRb, entonces bRa.
 + **Transitiva**: si aRb y bRc, entonces aRc.
 
-Si R es una relación de equivalencia sobre un conjunto A y a ∈ A, entonces la clase del elemento a se denota [a] = { x ∈ A / xRa }. El conjunto cociente se denota A/~ = { [a] / a ∈ A }.
+Si R es una relación de equivalencia sobre un conjunto A y a ∈ A, entonces la **clase del elemento** a se denota [a] = { x ∈ A / xRa }. El **conjunto cociente** se denota A/~ = { [a] / a ∈ A }.
+
+#### Ejercicio
+
+Sean A = { 1, 2, 3, 4, 5 } y R = { (1,1), (1,2), (3,4), (5,2), (3,1), (4,2) }, calcular el conjunto cociente.
+
+---
+
+### Proposición
+
+Sea R una relación de equivalencia sobre un conjunto A:
++ Si aRb, entonces [a] = [b]
++ Si a~~R~~[b, entonces [a]∩[b] = ø
+
+#### Ejercicio
+
+En el conjunto Z = { 0, 1, -1, 2, -2, ... }, el conjunto de los números enteros, definimos la relación binaria aRb si b-a es múltiplo de 3:
+
+1. Demuestra que R es una relación de equivalencia.
+2. Calcular [0].
+3. Calcular el cardinal del conjunto cociente.
+
+---
+
+## Relaciones de orden
+
+Una relación binaria ≤ sobre un conjunto A diremos que es una **relación de orden** si verifica:
+
++ **Reflexiva**: si a ∈ A, entonces a≤a.
++ **Antisimétrica**: si a≤b, entonces b≤a.
++ **Transitiva**: si a≤b y b≤c, entonces a≤c.
+
+Algunas relaciones de equivalencia son:
+
++ ≤<sub>u</sub> orden usual del conjunto N
++ ≤<sub>m</sub> orden ser múltiplo
++ ≤<sub>i</sub> orden inclusión
+
+#### Ejercicio
+
+Demostrar que ≤<sub>m</sub> es una relación de orden.
+
+---
+
+Una relación de orden ≤ sobre un conjunto A diremos que es una **relación de orden total** si verifica:
+
++ Si ( a, b ) ∈ AxA, entonces a ≤ b ó b ≤ a
+
+#### Ejercicio
+
+Demostrar que las siguientes relaciones son relaciones de orden total.
+
+1. ( N, ≤<sub>u</sub> )
+2. ( N, ≤<sub>m</sub> )
+
+## Elementos notables de un conjunto ordenada
+
+Sea ( A, ≤ ) un conjunto ordenado y B ⊆ A:
+
+1. **MAXIMALES**: un elemento β ∈ B diremos que es un MAXIMAL de B si verifica: b ∈ B y β ≤ b, entonces β = b.
+2. **MÁXIMO**: un elemento β ∈ B diremos que es el MÁXIMO de B si verifica: b ≤ β ∀ b ∈ B.
+3. **MINIMALES**: un elemento β ∈ B diremos que es un MINIMAL de B si verifica: b ∈ B y b ≤ β, entonces b = β.
+4. **MÍNIMO**: un elemento β ∈ B diremos que es el MÍNIMO de B si verifica: β ≤ b ∀ b ∈ B.
+5. **COTAS SUPERIORES**: un elemento a ∈ A diremos que es una COTA SUPERIOR de B si b ≤ a ∀ b ∈ B.
+6. **SUPREMO**: el SUPREMO de B es el mínimo del conjunto formado por todas las cotas superiores de B.
+7. **COTAS INFERIORES**: un elemento a ∈ A diremos que es una COTA INFERIOR de B si a ≤ b ∀ b ∈ B.
+8. **ÍNFIMO**: el ÍNFIMO de B es el máximo del conjunto formado por todas las cotas inferiores de B.
