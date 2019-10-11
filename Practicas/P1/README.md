@@ -27,7 +27,7 @@ Sea un conjunto X = { 1, 2 } e Y = { 2, 3 }, calcular X x Y x X y el cardinal de
 
 Sea un conjunto X = { 1, 2 }, calcular el conjunto partes de X<sup>2</sup>.
 
-#### Ejercicio 
+#### Ejercicio
 
 Sea el conjunto A = { 1, -1, 2, 3, -3, 5 } definimos la siguiente relación binaria: xRy si x<sup>2</sup> = y<sup>2</sup>.
 
@@ -44,4 +44,25 @@ Sea el conjunto X = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, en X<sup>2</sup> definimos la
 
 #### Ejercicio
 
-Sea X un conjunto. En P(X) definimos la siguiente relación binaria:
+Sea X un conjunto. En P(X) definimos la siguiente relación binaria: A ≤<sub>i</sub> B si A ⊆ B. Demostrar que ≤<sub>i</sub> es una relación de orden.
+
+#### Ejercicio
+
+Dado el conjunto ordenado ( P({ 1, 2, 3, 4, 5, 6 }), ≤<sub>i</sub> ), calcular los elementos notables de B = { { 3, 4, 5 }, { 2, 4, 6 }, { 2 } }.
+
+#### Ejercicio
+
+Estudiar la inyectividad y sobreyectividad de la aplicación:
++ f:Z<sup>2</sup>->Z tal que f( a, b ) = a + b
+
+#### Ejercicio
+
+Demostrar que si f:A->B y g:B->C con aplicaciones inyectivas, entonces, gof:A->C es también una aplicación inyectiva.
+
+#### Ejercicio
+
+Sean f:A->B y g:B->C dos aplicaciones. Demostrar que si gof es inyectiva y f es sobreyectiva, entonces g es inyectiva.
+
+#### Ejercicio
+
+Sea R el conjunto de los números reales, demostrar que f:R->R tal que f(x) = ( πx + √2 ) / e es biyectiva y calcular f<sup>-1</sup>.

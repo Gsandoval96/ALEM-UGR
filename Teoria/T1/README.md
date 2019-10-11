@@ -139,7 +139,7 @@ Una aplicación f:A->B es:
 #### Ejercicio
 
 Estudiar la biyectividad de las siguientes aplicaciones:
-+ f:N->Z tal que f(x) = x - 5.
++ f:N->Z tal que f(x) = x - 5
 + f:Z->N tal que f(x) = x<sup>2</sup>
 + f:Q->Q tal que f(x) = (2x + 1) / 3
 
