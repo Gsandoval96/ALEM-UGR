@@ -26,3 +26,22 @@ Sea un conjunto X = { 1, 2 } e Y = { 2, 3 }, calcular X x Y x X y el cardinal de
 #### Ejercicio
 
 Sea un conjunto X = { 1, 2 }, calcular el conjunto partes de X<sup>2</sup>.
+
+#### Ejercicio 
+
+Sea el conjunto A = { 1, -1, 2, 3, -3, 5 } definimos la siguiente relación binaria: xRy si x<sup>2</sup> = y<sup>2</sup>.
+
+1. Demostrar que R es una relación de equivalencia.
+2. Calcular el cardinal del conjunto cociente.
+
+#### Ejercicio
+
+Sea el conjunto X = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, en X<sup>2</sup> definimos la siguiente relación binaria: ( a, b )R( c, d ) si a + b = c + d.
+
+1. Demuestrar que R es una relación de equivalencia.
+2. Calcular [ ( 3, 4 ) ].
+3. Calcular el cardinal del conjunto cociente.
+
+#### Ejercicio
+
+Sea X un conjunto. En P(X) definimos la siguiente relación binaria:
